@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bars ul li a{
+    text-transform: uppercase;
+    margin-right: 10px;
+    position: relative;
+    
+}
+.hor a:hover{
+    
+    border-radius: 4px;
+    border: 1px solid rgb(156, 149, 149);
+    width: 100%;
+    border-bottom: 2px solid rgb(192, 178, 178) ;
+} 
+
+
+.hor a::after{
+    content: "";
+   display: block;
+   width: 0%;
+   height: 2px;
+   background: orangered;
+   transition: all 400ms ease ;
+   top: 0.6rem;
+   position: relative;
+   border-bottom: 1px solid orangered;
+   
+   
+}
+.hor a:hover::after{
+width: 100%;
+left: 0%;
+
+}
+.vedio{
+    font-size: 13px;
+}
+.header{
+    
+}
